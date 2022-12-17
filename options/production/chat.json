@@ -1,0 +1,102 @@
+[
+    {
+        "msgs": ["幺幺"],
+        "msgInputSpeed": 80 ,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["嗯嗯呐", "嗯嗯哪", "嗯呐", "嗯哪", "嗯嗯", "哥哥", "乖乖", "宝宝", "在", "嗯", "我在", "怎么啦", "怎么了"],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["小朋友不按套路出牌哈~", "好吧，这不重要~(手动doge)"]
+            }
+        }
+    },
+    {
+        "msgs": ["知道今天是什么日子吗?"],
+        "msgInputSpeed": 80 ,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["不知道", "是什么呀", "不知道诶", "我的生日", "生日", "不晓得", "晓得", "忘了"],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["小哈ber，猜不到吧~", "是不是想说今天是你的生日?"]
+            }
+        }
+    },
+    {
+        "msgs": ["今天是十一月二十六，明天就是我家乖乖的生日哦~"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["我要当第一个给宝宝说生日快乐的人~"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["不知不觉，我和乖乖已经在一起度过了2个生日了，我们在一起，我真的觉得很幸福，小朋友你有没有觉得很幸福呀o(*￣︶￣*)o"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["当然幸福", "幸福", "有", "当然有", "必须的", "肯定", "当然有", "觉得"],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["哈哈哈，如果说不幸福，我分分钟报一万个bug给你看(理直气壮~)", "哈哈哈，我知道我的小宝贝一定也是幸福的哦~"]
+            }
+        }
+    },
+    {
+        "msgs": ["啵啵啵，乖乖，你还记得去年我们在一起的日子吗？"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["记得", "当然记得", "当然啦", "嗯嗯呐", "嗯嗯哪", "嗯呐", "嗯哪", "嗯嗯"],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["再给我的聪明宝宝一次机会~", "记不到也没关系哦"]
+            }
+        }
+    },
+    {
+        "msgs": ["一起康康去年的我们吧~"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["<vlog src='options/production/vlogs/1.mp4'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+    {
+        "msgs": ["今年，我们也一起度过了幸福的一年，想看吗~"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["好", "要的", "要得", "好哦", "嗯嗯呐", "嗯嗯哪", "嗯呐", "嗯哪", "嗯嗯", "好哒"],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["必须康(doge)~", "必须康(doge)~"]
+            }
+        }
+    },
+    {
+        "msgs": ["<vlog src='options/production/vlogs/2.mp4'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+    {
+        "msgs": ["明天就是你的生日啦"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["<span style=\"color: red;\">祝我的小宝贝27岁生日快乐！</span>"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["<span style=\"color: red;\">你永远是我的小朋友~</span>"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["下面是给幼儿园小朋友的一封信(只有小朋友才能打开哈~~)"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["<letter src='options/production/letters/test.json'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    }
+]
